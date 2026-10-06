@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/.well-known/appspecific/com.tesla.3p.public-key.pem",
-      "destination": "https://r2.dev"
+      "destination": "/.well-known/appspecific/com.tesla.3p.public-key.txt"
     }
   ]
 }
