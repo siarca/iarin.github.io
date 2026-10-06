@@ -1,11 +1,16 @@
 {
+  "cleanUrls": true,
   "headers": [
     {
-      "source": "/.well-known/appspecific/(.*)",
+      "source": "/.well-known/appspecific/:path*",
       "headers": [
         {
           "key": "Content-Type",
           "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     }
