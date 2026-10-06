@@ -1,4 +1,0 @@
-/.well-known/appspecific/*
-  Content-Type: text/plain; charset=utf-8
-  Access-Control-Allow-Origin: *
-  Content-Disposition: inline
